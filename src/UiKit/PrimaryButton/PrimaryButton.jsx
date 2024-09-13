@@ -1,8 +1,8 @@
 import React from "react";
-
-const PrimaryButton = ({ className, label, onClick }) => {
+import "./PrimaryButton.css"
+const PrimaryButton = ({  label, onClick }) => {
   return (
-    <button className={className} onClick={onClick}>
+    <button className="primary-button" onClick={onClick}>
       {label}
     </button>
   );

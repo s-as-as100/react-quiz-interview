@@ -1,0 +1,56 @@
+/* EndScreen.css */
+.end-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.end-screen h2 {
+  font-size: 2.5rem;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.end-screen p {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.restart-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+  background-color: #388e3c;
+}
+
+.restart-button:active {
+  background-color: #2e7d32;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .end-screen h2 {
+    font-size: 2rem;
+  }
+
+  .end-screen p {
+    font-size: 1.2rem;
+  }
+
+  .restart-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
