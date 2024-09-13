@@ -1,0 +1,34 @@
+.first-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.quiz-title {
+  font-size: 2.5rem;
+  color: #4caf50;
+}
+
+.quiz-description {
+  font-size: 1.2rem;
+  margin: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.start-button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.start-button:hover {
+  background-color: #1976d2;
+}
